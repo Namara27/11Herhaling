@@ -5,9 +5,7 @@ import java.applet.*;
 
 public class Getallen extends Applet {
 
-    public void init() {
-
-    }
+    public void init() {}
 
     public void paint(Graphics g) {
         int i;
@@ -17,6 +15,5 @@ public class Getallen extends Applet {
             y += 20;
             g.drawString("" + i,20,y);
         }
-
     }
 }
